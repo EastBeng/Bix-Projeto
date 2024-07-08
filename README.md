@@ -31,6 +31,7 @@ A BIX Tecnologia contratou uma consultoria de Data Science para melhorar o plane
 - **Modelo de Random Forest:**
   - Acurácia: 99.16875%
   - Matriz de Confusão
+    
     ![image](https://github.com/EastBeng/BIX-Tecnologia-Desafio-Tecnico/assets/44300759/d9865a0d-0e15-4629-978b-001d4be9e238)
 
 ## Conclusão
