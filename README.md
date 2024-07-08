@@ -1,4 +1,4 @@
-# BIX-Tecnologia-Desafio-Tecnico: Projeto de Data Science
+# BIX-Tecnologia-Desafio-Tecnico: Detalhes Projeto de Data Science e Respostas Desafio
 
 Este repositório contém o código e os dados utilizados para resolver o desafio técnico de Data Science proposto pela BIX Tecnologia, relacionado à otimização do planejamento de manutenção.
 
