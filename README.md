@@ -17,6 +17,7 @@ A BIX Tecnologia contratou uma consultoria de Data Science para melhorar o plane
 
 - `air_system_previous_years.csv`: Dados históricos de manutenção dos anos anteriores.
 - `air_system_present_year.csv`: Dados de manutenção do ano presente para validação.
+- `main.py`: Código utilizado para carregar, preparar, modelar e avaliar os dados.
   
 ## Passos Realizados
 
