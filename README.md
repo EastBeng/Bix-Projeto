@@ -42,6 +42,17 @@ A BIX Tecnologia contratou uma consultoria de Data Science para melhorar o plane
     
       ![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/9d24ee24-a8f9-4113-80b6-7c3fae74f2ca)
     
+  - Relatório de Classificação
+  
+               precision    recall  f1-score   support
+
+         0.0       0.99      1.00      1.00     15625
+         1.0       0.93      0.70      0.80       375
+
+    accuracy                           0.99     16000
+   macro avg       0.96      0.85      0.90     16000
+weighted avg       0.99      0.99      0.99     16000
+
 
 ## Conclusão
 
