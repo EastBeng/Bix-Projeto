@@ -2,6 +2,15 @@
 
 Este repositório contém o código e os dados utilizados para resolver o desafio técnico de Data Science proposto pela BIX Tecnologia, relacionado à otimização do planejamento de manutenção.
 
+![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/8af2befb-ff2d-4207-80b1-a8c57de29c3f)
+![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/b97bf403-cd3a-4ba7-85a0-8c06914cbe9e)
+![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/f53794d1-90d8-433a-94d8-4bea7a41f60c)
+![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/45194ce5-468a-47ac-b556-87fce5c03caf)
+![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/d0b38882-8c83-471f-8267-413fa2aa42db)
+
+
+
+
 ## Descrição do Projeto
 
 A BIX Tecnologia contratou uma consultoria de Data Science para melhorar o planejamento de manutenção de uma frota terceirizada de transportes. O foco do projeto é reduzir os custos de manutenção do sistema de ar dos caminhões, identificando falhas de forma preditiva.
