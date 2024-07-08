@@ -3,10 +3,12 @@
 Este repositório contém o código e os dados utilizados para resolver o desafio técnico de Data Science proposto pela BIX Tecnologia, relacionado à otimização do planejamento de manutenção.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/b97bf403-cd3a-4ba7-85a0-8c06914cbe9e)
-![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/f53794d1-90d8-433a-94d8-4bea7a41f60c)
-![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/45194ce5-468a-47ac-b556-87fce5c03caf)
-![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/d0b38882-8c83-471f-8267-413fa2aa42db)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/824cf547-fed2-4afe-9778-116439e050cb)
+
 
 ## Descrição do Projeto
 
