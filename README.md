@@ -7,7 +7,7 @@ Este repositório contém o código e os dados utilizados para resolver o desafi
 ![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/f53794d1-90d8-433a-94d8-4bea7a41f60c)
 ![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/45194ce5-468a-47ac-b556-87fce5c03caf)
 ![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/d0b38882-8c83-471f-8267-413fa2aa42db)
-<div height = "20px"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fmatplotlib%2Fmatplotlib&psig=AOvVaw3rQr6VxxaMA2iehmmxpenV&ust=1720551588539000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDiyNyQmIcDFQAAAAAdAAAAABAE" ></div>
+<div ><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fmatplotlib%2Fmatplotlib&psig=AOvVaw3rQr6VxxaMA2iehmmxpenV&ust=1720551588539000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDiyNyQmIcDFQAAAAAdAAAAABAE"/></div>
 
 
 
