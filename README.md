@@ -48,10 +48,11 @@ A BIX Tecnologia contratou uma consultoria de Data Science para melhorar o plane
 
          0.0       0.99      1.00      1.00     15625
          1.0       0.93      0.70      0.80       375
+    
+        accuracy                       0.99     16000
+        macro avg  0.96      0.85      0.90     16000
+        weighted   0.99      0.99      0.99     16000
 
-    accuracy                           0.99     16000
-   macro avg       0.96      0.85      0.90     16000
-weighted avg       0.99      0.99      0.99     16000
 
 
 ## Conclusão
