@@ -7,7 +7,10 @@ Este repositório contém o código e os dados utilizados para resolver o desafi
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-<div>![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/824cf547-fed2-4afe-9778-116439e050cb)</div>
+<html>
+  <div>![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/824cf547-fed2-4afe-9778-116439e050cb)</div>
+
+</html>
 
 
 ## Descrição do Projeto
