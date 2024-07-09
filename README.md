@@ -1,67 +1,66 @@
-# BIX-Tecnologia-Desafio-Tecnico: Detalhes Projeto de Data Science e Respostas Desafio
+# BIX-Technology-Technical-Challenge: Data Science Project Details and Challenge Responses
+This repository contains the code and data used to solve the technical Data Science challenge proposed by BIX Tecnologia, related to optimizing maintenance planning.
 
-Este repositório contém o código e os dados utilizados para resolver o desafio técnico de Data Science proposto pela BIX Tecnologia, relacionado à otimização do planejamento de manutenção.
+## Project Description
+BIX Tecnologia has hired a Data Science consultancy to improve the maintenance planning of an outsourced transport fleet. The project focuses on reducing maintenance costs of the trucks' air system by identifying failures predictively.
 
-## Descrição do Projeto
-
-A BIX Tecnologia contratou uma consultoria de Data Science para melhorar o planejamento de manutenção de uma frota terceirizada de transportes. O foco do projeto é reduzir os custos de manutenção do sistema de ar dos caminhões, identificando falhas de forma preditiva.
-
-## Tecnologias Utilizadas
+## Technologies Used
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
-## Conteúdo do Repositório
+## Repository Contents
 
-- `air_system_previous_years.csv`: Dados históricos de manutenção dos anos anteriores.
-- `air_system_present_year.csv`: Dados de manutenção do ano presente para validação.
-- `main.py`: Código utilizado para carregar, preparar, modelar e avaliar os dados.
+- `air_system_previous_years.csv`: Historical maintenance data from previous years.
+- `air_system_present_year.csv`: Maintenance data from the current year for validation.
+- `main.py`: Code used to load, preprocess, model, and evaluate the data.
   
-## Passos Realizados
+## Steps Taken
 
-1. **Preparação dos Dados:**
-   - Carregamento dos dados.
-   - Transformação da coluna `'class'` para valores numéricos.
-   - Tratamento de valores ausentes.
+1. **Data Preparation:**
+   - Data loading.
+   - Transformation of the 'class' column to numeric values.
+   - Handling missing values.
 
-2. **Modelagem:**
-   - Utilização do modelo de machine learning: Random Forest.
-   - Treinamento dos modelos nos dados históricos.
-   - Avaliação dos modelos utilizando métricas como acurácia, matriz de confusão e relatório de classificação.
+2. **Modeling:**
+   - Use of the Random Forest machine learning model.
+   - Training the models on historical data.
+   - Evaluation of models using metrics such as accuracy, confusion matrix, and classification report.
 
-3. **Avaliação no Conjunto de Dados do Ano Presente:**
-   - Utilização do modelo treinado com Random Forest para fazer previsões nos dados do ano presente.
-   - Avaliação da capacidade de generalização do modelo.
+3. **Evaluation on the Present Year Dataset:**
+   - Use of the trained Random Forest model to make predictions on the present year's data.
+   - Evaluation of the model's generalization ability.
 
-## Resultados
-- **Modelo de Random Forest:**
-  - Acurácia: 99.16875%
-  - Matriz de Confusão
+## Results
+- **Random Forest Model:**
+  - Accuracy: 98.8%
+  - Confusion Matrix
     
-      ![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/9d24ee24-a8f9-4113-80b6-7c3fae74f2ca)
+      ![image](https://github.com/EastBeng/Bix-Projeto/assets/44300759/9fc44ce3-86aa-4b28-82e8-cf91f5bca63f)
+
     
-  - Relatório de Classificação
+  - Classification Report
   
                precision    recall  f1-score   support
 
-         0.0       0.99      1.00      1.00     15625
-         1.0       0.93      0.70      0.80       375
-    
+           0       0.99      1.00      0.99     15625
+           1       0.89      0.56      0.69       375
         accuracy                       0.99     16000
-        macro avg  0.96      0.85      0.90     16000
+        macro avg  0.94      0.78      0.84     16000
         weighted   0.99      0.99      0.99     16000
 
 
 
-## Conclusão
+## Conclusion
 
-O projeto demonstrou uma redução potencial nos custos de manutenção do sistema de ar dos caminhões através da aplicação de técnicas de Data Science.
+This project demonstrates the successful application of Data Science techniques to optimize the maintenance planning of a third-party transport fleet's air system. Using machine learning, particularly the Random Forest model, we achieved an accuracy of 98.8% in predicting maintenance needs. This high accuracy underscores the effectiveness of predictive analytics in identifying potential failures preemptively, aiming to reduce maintenance costs and enhance operational efficiency. These findings establish a robust foundation for future advancements in maintenance strategies, ensuring continuous improvements in fleet management and reliability.
 
-## Repostas - Desafio
+## Challenge Answer
 
 1. What steps would you take to solve this problem? Please describe as completely and clearly as possible all the steps that you see as essential for solving the problem.
+- To solve this problem, I would start by thoroughly understanding the data, including examining the features, the target variable, and identifying any missing values. Preprocessing would follow, where I’d handle missing values and convert categorical data into numerical formats. Then, I’d explore various machine learning models to identify the best fit. Hyperparameter tuning using GridSearchCV would optimize the chosen model. Finally, validation on the present year's data would ensure the model’s generalization.
 
 2. Which technical data science metric would you use to solve this challenge? Ex: absolute error, rmse, etc. 
 
