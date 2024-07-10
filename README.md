@@ -63,32 +63,47 @@ This project demonstrates the successful application of Data Science techniques 
 - To solve this problem, I would start by thoroughly understanding the data, including examining the features, the target variable, and identifying any missing values. Preprocessing would follow, where I’d handle missing values and convert categorical data into numerical formats. Then, I’d explore various machine learning models to identify the best fit. Hyperparameter tuning using GridSearchCV would optimize the chosen model. Finally, validation on the present year's data would ensure the model’s generalization.
 
 2. Which technical data science metric would you use to solve this challenge? Ex: absolute error, rmse, etc. 
+- Accuracy, precision, recall, and F1-score are crucial metrics. Accuracy gives an overall performance snapshot, while precision and recall provide insights into the model’s ability to distinguish between positive and negative cases. F1-score is particularly important when dealing with imbalanced classes.
 
 3. Which business metric  would you use to solve the challenge?
-
+- The primary business metric would be the reduction in maintenance costs. Accurate predictions of maintenance needs can help avoid unnecessary repairs and reduce downtime, leading to cost savings.
+  
 4. How do technical metrics relate to the business metrics?
-
+- Technical metrics ensure the model performs well in predicting outcomes, which directly impacts the business metric by reducing maintenance costs through precise predictions.
+  
 5. What types of analyzes would you like to perform on the customer database?
-
+- I would perform exploratory data analysis to understand the data distribution, detect patterns, and identify correlations. Feature importance analysis would help in understanding which factors most influence the maintenance needs.
+  
 6. What techniques would you use to reduce the dimensionality of the problem? 
-
+- Techniques like Principal Component Analysis (PCA) and feature selection methods such as Recursive Feature Elimination (RFE) would be used to reduce dimensionality.
+  
 7. What techniques would you use to select variables for your predictive model?
-
+- I’d use feature importance scores from models like Random Forest, as well as correlation analysis and statistical tests to select the most relevant variables.
+  
 8. What predictive models would you use or test for this problem? Please indicate at least 3.
-
+- I would test Logistic Regression, Random Forest, and Gradient Boosting models to find the best predictive model for this problem.
+  
 9. How would you rate which of the trained models is the best?
-
+- By comparing their performance metrics like accuracy, precision, recall, and F1-score on a validation dataset, as well as evaluating their performance on unseen data.
+  
 10. How would you explain the result of your model? Is it possible to know which variables are most important?
-
+- The results can be explained using performance metrics and confusion matrices. Feature importance scores from models like Random Forest can help identify the most influential variables.
+  
 11. How would you assess the financial impact of the proposed model?
-
+- By calculating the reduction in maintenance costs and comparing it to the current maintenance expenditure, I can assess the financial impact.
+  
 12. What techniques would you use to perform the hyperparameter optimization of the chosen model?
-
+- I’d use GridSearchCV or RandomizedSearchCV to systematically search for the best hyperparameters for the model.
+  
 13. What risks or precautions would you present to the customer before putting this model into production?
-
+- I would highlight the importance of monitoring the model’s performance over time, the need for regular retraining with new data, and potential changes in the data distribution that could affect model accuracy.
+  
 14. If your predictive model is approved, how would you put it into production?
-
+- I would use a robust deployment pipeline, possibly involving Docker for containerization and a cloud service like AWS or Azure for scalability. Monitoring and logging would be set up to track model performance.
+  
 15. If the model is in production, how would you monitor it?
-
+- Continuous monitoring of performance metrics, setting up alerts for significant drops in accuracy, and regular evaluations with new data would be essential.
+  
 16. If the model is in production, how would you know when to retrain it?
+- Monitoring for performance degradation over time and significant changes in data patterns would signal the need for retraining. Setting a predefined schedule for retraining based on new data influx could also be a strategy.
 
